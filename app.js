@@ -46,6 +46,8 @@ app.get('/apps', (req, res) => {
         .json(apps)
 });
 
-app.listen(8000, () => {
-    console.log('server listening on 8000')
-})
+module.exports = app;
+
+// app.listen(8000, () => {
+//     console.log('server listening on 8000')
+// })
